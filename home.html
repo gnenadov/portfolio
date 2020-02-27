@@ -3,25 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
 </head>
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
-            <li><a href="interaction_Design.html">Interaction Design</a> </li>
-            <li><a href="skills.html">Skills</a> </li>
-            <li><a href="about.html">About</a> </li>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
+            <li class="nav-item"><a href="interaction_Design.html">Interaction Design</a> </li>
+            <li class="nav-item"><a href="skills.html">Skills</a> </li>
+            <li class="nav-item"><a href="about.html">About</a> </li>
         </ul>
     </nav>
 </header>
 <main>
-<h1>Gordon Nenadovic</h1>
-    <h2>Web Developer and UX/UI Designer</h2>
-    <p>I am a Master's student in the School of Information at the <a href = "https://umich.edu">University of Michigan</a>. I
-    focus on Web Development and UX/UI Design. I want to make technology as accessible as possible to as many
-        people as possible.</p>
+        <style>
+        body {
+            height: 100%;
+        }
+        body::after{
+            content: "";
+            background-image: url("images/skills.jpg");
+            min-height: 100%;
+            min-width: 1024px;
+            width: 100%;
+            height: auto;
+            opacity: .70;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: fixed;
+            z-index: -1;
+        }
+
+    </style>
+<h1>Hi! I'm Gordon Nenadovic. Front-End Developer and UX/UI Designer</h1>
+    <p id="whatido">I design and code accessible and simple things.</p>
 </main>
 
 </body>

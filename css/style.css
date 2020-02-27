@@ -2,14 +2,59 @@ html{
     scroll-behavior: smooth;
 }
 h1{
-    font-size: 50px;
-    color: black;
+    font-family: eurostile, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
     text-align: center;
+    color: white;
+}
+
+
+.nav-links{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-start: span;
+    list-style-type: none;
+    font-family: eurostile, sans-serif;
+    font-size: 18px;
+}
+
+.nav-item a{
+
+}
+
+
+
+#whatido {
+    font-family: europa, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    color: white;
 }
 
 .container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100px;
+    font-family: eurostile, sans-serif;
+}
+
+.skittles {
+    font-size: 36px;
+    color: green;
+    font-family: eurostile, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-self: center;
+}
+
+.skittles-descriptions {
+    font-size: 24px;
+    color: blue;
+    font-family: eurostile, sans-serif;
+    justify-self: center;
 }
 

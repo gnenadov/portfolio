@@ -3,88 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Skills</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
 </head>
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
-            <li><a href="interaction_Design.html">Interaction Design</a> </li>
-            <li><a href="skills.html">Skills</a> </li>
-            <li><a href="about.html">About</a> </li>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
+            <li class="nav-item"><a href="interaction_Design.html">Interaction Design</a> </li>
+            <li class="nav-item"><a href="skills.html">Skills</a> </li>
+            <li class="nav-item"><a href="about.html">About</a> </li>
         </ul>
     </nav>
 </header>
 <main>
     <style>
         body {
+            height: 100%;
         }
         body::after{
             content: "";
             background-image: url("images/skills.jpg");
+            min-height: 100%;
+            min-width: 1024px;
+            width: 100%;
+            height: auto;
             opacity: 0.3;
             top: 0;
             left: 0;
             bottom: 0;
             right: 0;
-            position: absolute;
+            position: fixed;
             z-index: -1;
         }
 
     </style>
     <h1>Skills</h1>
-    <div id="html">
-        <h2>HTML</h2>
-        <p>Intermediate</p>
+    <div class="container" id="html">
+        <h2 class="skittles">HTML</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="css">
-        <h2>CSS</h2>
-        <p>Intermediate</p>
+    <div class="container" id="css">
+        <h2 class="skittles">CSS</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="javascript">
-        <h2>Javascript</h2>
-        <p>Beginner-Intermediate</p>
+    <div class="container" id="javascript">
+        <h2 class="skittles">Javascript</h2>
+        <p class="skittles-descriptions">Beginner-Intermediate</p>
     </div>
-    <div id="python">
-        <h2>Python</h2>
-        <p>Intermediate</p>
+    <div class="container" id="python">
+        <h2 class="skittles">Python</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="sql">
-        <h2>SQL</h2>
-        <p>Beginner</p>
+    <div class="container" id="sql">
+        <h2 class="skittles">SQL</h2>
+        <p class="skittles-descriptions">Beginner</p>
     </div>
-    <div id="figma">
-        <h2>Figma</h2>
-        <p>Intermediate</p>
+    <div class="container" id="figma">
+        <h2 class="skittles">Figma</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="adobe-xd">
-        <h2>Adobe XD</h2>
-        <p>Beginner</p>
+    <div class="container" id="adobe-xd">
+        <h2 class="skittles">Adobe XD</h2>
+        <p class="skittles-descriptions">Beginner</p>
     </div>
-    <div id="adobe-illustrator">
-        <h2>Adobe Illustrator</h2>
-        <p>Beginner</p>
+    <div class="container" id="adobe-illustrator">
+        <h2 class="skittles">Adobe Illustrator</h2>
+        <p class="skittles-descriptions">Beginner</p>
     </div>
-    <div id="adobe-photoshop">
-        <h2>Adobe Photoshop</h2>
-        <p>Beginner</p>
+    <div class="container" id="adobe-photoshop">
+        <h2 class="skittles">Adobe Photoshop</h2>
+        <p class="skittles-descriptions">Beginner</p>
     </div>
-    <div id="wireframes">
-        <h2>Wireframes</h2>
-        <p>Intermediate</p>
+    <div class="container" id="wireframes">
+        <h2 class="skittles">Wireframes</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="prototypes">
-        <h2>Prototypes</h2>
-        <p>Intermediate</p>
+    <div class="container" id="prototypes">
+        <h2 class="skittles">Prototypes</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="user-interviews">
-        <h2>User Interviews</h2>
-        <p>Intermediate</p>
+    <div class="container" id="user-interviews">
+        <h2 class="skittles">User Interviews</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
-    <div id="storyboards">
-        <h2>Storyboards</h2>
-        <p>Intermediate</p>
+    <div class="container" id="storyboards">
+        <h2 class="skittles">Storyboards</h2>
+        <p class="skittles-descriptions">Intermediate</p>
     </div>
 <!--    <ul>-->
 <!--        <li>HTML - Intermediate</li>-->
