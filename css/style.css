@@ -10,6 +10,77 @@ h1{
     color: white;
 }
 
+#who-i-am{
+    font-family: eurostile, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    color: black;
+}
+
+#nice-to-meet-you {
+    padding-top: 60px;
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    justify-content: center;
+    font-family: eurostile, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+}
+
+.dl-resume {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: none;
+  color: #7510F7;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 50px;
+  font-family: eurostile, sans-serif;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+#resume-link {
+    text-decoration: none;
+}
+
+
+.avatar{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
+}
+
+.circuit {
+    display: grid;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.skittles-div {
+    background-color: #7510F7;
+    color: white;
+    height: 450px;
+    position: relative;
+    margin-top: 100px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
 
 .nav-links{
   display: grid;
@@ -17,22 +88,30 @@ h1{
     grid-column-start: span;
     list-style-type: none;
     font-family: eurostile, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
+    justify-items: center;
+    background-color: #7510F7;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 15px;
 }
 
-.nav-item a{
-
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
 }
 
 
 
-#whatido {
+#what-i-do {
     font-family: europa, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 36px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .container{
@@ -56,5 +135,22 @@ h1{
     color: blue;
     font-family: eurostile, sans-serif;
     justify-self: center;
+}
+
+.column {
+    display: flex;
+    margin-top: -100px;
+    margin-left: 512px;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 25px rgba(40, 47, 60, 0.5);
+}
+
+#column-1-content {
+    flex-direction: row;
+    justify-content: center;
 }
 

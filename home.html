@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
 </head>
 <body>
-<img src="images/myAvatar.svg">
 <header>
     <nav>
         <ul class="nav-links">
@@ -21,29 +21,26 @@
     </nav>
 </header>
 <main>
-        <style>
-        body {
-            height: 100%;
-        }
-        body::after{
-            content: "";
-            background-image: url("images/skills.jpg");
-            min-height: 100%;
-            min-width: 1024px;
-            width: 100%;
-            height: auto;
-            opacity: .70;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            position: fixed;
-            z-index: -1;
-        }
-
-    </style>
-<h1>Hi! I'm Gordon Nenadovic. Front-End Developer and UX/UI Designer</h1>
-    <p id="whatido">I design and code accessible and simple things.</p>
+    <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; flex-direction: column;
+    margin-top: 100px;">
+        <h1 id="who-i-am">I'm Gordon Nenadovic. UX/UI Designer and Front-End Developer.</h1>
+        <p id="what-i-do">I design and code simple and accessible things.</p>
+        <img class="avatar" src="images/myAvatar.svg">
+    </div>
+<!--    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 100px;">-->
+<!--        <img class="circuit" src="images/circuit.png">-->
+<!--    </div>-->
+    <div class="skittles-div">
+        <h1 id="nice-to-meet-you">Nice to meet you!</h1>
+        <h2 id="about-me">I'm a master's student in the School of Information at the University of Michigan Ann Arbor campus.
+        I study UX/UI design and Front-End Development. I'm hard working, eager to learn, and persistent.</h2>
+        <a id="resume-link" href="files/ResumeGordonNenadovic2020.pdf" download>
+        <button class="dl-resume">Download Resume</button>
+        </a>
+    </div>
+<!--    <div class="column">-->
+<!--        <h2 id="column-1-content" style="color: black">Bla Bla Bla</h2>-->
+<!--    </div>-->
 </main>
 
 </body>
