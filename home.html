@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+</style>
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -8,11 +50,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
 </head>
-<body>
 <header>
     <nav>
         <ul class="nav-links">
-            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item" id="active"><a href="home.html">Home</a></li>
             <li class="nav-item"><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
             <li class="nav-item"><a href="interaction_Design.html">Interaction Design</a> </li>
             <li class="nav-item"><a href="skills.html">Skills</a> </li>
@@ -38,9 +79,14 @@
         <button class="dl-resume">Download Resume</button>
         </a>
     </div>
-<!--    <div class="column">-->
-<!--        <h2 id="column-1-content" style="color: black">Bla Bla Bla</h2>-->
-<!--    </div>-->
+    <div id="pic-links">
+        <a href="contextual_inquiry.html">
+        <img style="width: 500px; height: 500px;" src="images/affinitywall.jpg">
+            </a>
+        <a href="interaction_Design.html">
+        <img style="width: 500px; height: 500px;" src="images/wireframe.jpg">
+            </a>
+    </div>
 </main>
 
 </body>
