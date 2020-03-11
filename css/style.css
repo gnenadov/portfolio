@@ -79,6 +79,11 @@ body {
     margin-right: 200px;
 }
 
+.fb-pic {
+    height: 500px;
+    width: 600px;
+}
+
 
 .avatar{
     display: grid;
@@ -108,6 +113,8 @@ body {
 
 #active {
     font-weight: bold;
+    text-decoration: underline;
+    ;
 }
 
 #footer-div {
