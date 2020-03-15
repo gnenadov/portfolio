@@ -3,7 +3,7 @@
 <head>
     <script src="javascript/script.js"></script>
     <meta charset="UTF-8">
-    <title>Gordon Nenadovic | Designer and Front-End Developer</title>
+    <title>Gordon Nenadovic | Contact Me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
@@ -13,7 +13,7 @@
 <header>
     <nav>
         <div class="topnav">
-            <a href="index.html" id="active">Home</a>
+            <a href="contact.html" id="active">Contact</a>
                 <div id="myLinks">
                     <a href="index.html">Home</a>
                     <a href="skills.html">Skills</a>
@@ -31,18 +31,18 @@
 <main>
     <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; flex-direction: column;
     margin-top: 100px;">
-        <h1 id="who-i-am">I'm Gordon Nenadovic. UX/UI Designer and Front-End Developer.</h1>
-        <p id="what-i-do">I design and code simple and accessible things.</p>
-        <img class="avatar" src="images/myAvatar.svg">
+        <h1 id="who-i-am" style="margin-top: 150px;">Get in touch with me!.</h1>
     </div>
-    <div class="skittles-div">
-        <h1 id="nice-to-meet-you">Nice to meet you!</h1>
-        <h2 id="about-me">I'm a master's student in the School of Information at the University of Michigan Ann Arbor campus.
-        I study UX/UI design and Front-End Development. I'm hard working, eager to learn, and persistent. Explore
-        my website to see my work! Or take a look at my resume below!</h2>
-        <a id="resume-link" href="files/resume_Gordon_Nenadovic.pdf" download>
-        <button class="dl-resume">Download Resume</button>
-        </a>
+    <div class="skittles-div" style="height: 100%;">
+        <form action="https://formspree.io/mvoqkoyg" method="POST" data-aos="fade-up" data-aos-delay="300">
+    <label for="name">Name</label>
+    	<input type="text" id="name" name="name" placeholder="Enter your name..." required>
+    	<label for="email">Email</label>
+    		<input type="email" id="email" name="email" placeholder="Enter your email..." required>
+	            <label for="subject">Subject</label>
+	            <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
+	            <input type="submit" value="Submit">
+</form>
     </div>
 </main>
 <footer>

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="javascript/script.js"></script>
     <meta charset="UTF-8">
     <title>Gordon Nenadovic | Contextual Inquiry</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
     <link rel="stylesheet" href="https://use.typekit.net/qzp3wqh.css">
 
@@ -12,20 +14,27 @@
 <body>
 <header>
     <nav>
-        <ul class="nav-links">
-            <li class="nav-item"><a href="index.html">Home</a></li>
-            <li class="nav-item" id="active"><a href="contextual_inquiry.html">Contextual Inquiry</a></li>
-            <li class="nav-item"><a href="interaction_Design.html">Interaction Design</a> </li>
-            <li class="nav-item"><a href="skills.html">Skills</a> </li>
-            <li class="nav-item"><a href="about.html">About</a> </li>
-        </ul>
+        <div class="topnav">
+            <a href="contextual_inquiry.html" id="active">Contextual Inquiry</a>
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="interaction_Design.html">Interaction Design</a>
+                    <a href="contextual_inquiry.html">Contextual Inquiry</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </nav>
 </header>
 <main>
     <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; flex-direction: column;
     margin-top: 100px;">
         <h1 id="who-i-am">Contextual Inquiry for the Michigan Theater.</h1>
-        <p id="what-i-do" style="margin-right: 50px; margin-left: 50px;">Performed UX research on behalf of the Michigan Theater, which requested a group from the
+        <p id="what-i-do" style="margin-right: 200px; margin-left: 200px;">Performed UX research on behalf of the Michigan Theater, which requested a group from the
             School of Information to help improve their business.</p>
     </div>
 
@@ -57,8 +66,6 @@
 </main>
 <footer>
 <div id="footer-div" style="display: grid; grid-template-rows: 1fr 1fr 1fr; margin-top: 0;">
-    <h1 id="generic-text">gmnenadovic@gmail.com</h1>
-    <h1 id="generic-text">(909) 927-9310</h1>
     <h1 id="generic-text">© by Gordon Nenadovic</h1>
 </div>
 </footer>
